@@ -38,7 +38,8 @@ namespace Convai.Scripts.Utils
         private ConvaiNPC _currentNPC;
         private ConvaiInteractablesData _interactablesData;
         // OUR TEST ACTION
-        public GameObject counterNum;
+        [SerializeField] List<GameObject> attachPoints;
+        public GameObject attachPointsGroup;
 
         // Awake is called when the script instance is being loaded
         private void Awake()
@@ -457,6 +458,7 @@ namespace Convai.Scripts.Utils
         {
             public readonly string Animation;
             public readonly GameObject Target;
+            //public readonly List<GameObject> DestinationPoints;
             public readonly ActionChoice Verb;
 
             public ConvaiAction(ActionChoice verb, GameObject target, string animation)
@@ -464,7 +466,15 @@ namespace Convai.Scripts.Utils
                 Verb = verb;
                 Target = target;
                 Animation = animation;
+                //DestinationPoints = null;
             }
+            //public ConvaiAction(ActionChoice verb, GameObject target, List<GameObject> destinationPoints, string animation)
+            //{
+            //    Verb = verb;
+            //    Target = target;
+            //    DestinationPoints = destinationPoints;
+            //    Animation = animation;
+            //}
         }
 
         // STEP 3: Add the function for your action here.
@@ -656,14 +666,54 @@ namespace Convai.Scripts.Utils
         {
             ActionStarted?.Invoke("Drop", target);
 
+            GameObject attachPoint = null;
+            Debug.Log("YES original");
+
             if (target == null) return;
 
             Logger.DebugLog($"Dropping Target: {target.name}", Logger.LogCategory.Actions);
-            target.transform.position = counterNum.transform.position;
+
+            if(attachPoints != null)
+                foreach (GameObject _attachPoint in attachPoints)
+                {
+                    if (_attachPoint.CompareTag("Occupied"))
+                        continue;
+
+                    attachPoint = _attachPoint;
+                    _attachPoint.tag = "Occupied";
+                    break;
+                }
+
+            if (attachPoint == null)
+                attachPoint = _currentNPC.gameObject;
+
+            target.transform.parent = null;
+            target.transform.position = attachPoint.transform.position;
+            target.transform.rotation = attachPoint.transform.rotation;
+
             target.SetActive(true);
 
             ActionEnded?.Invoke("Drop", target);
         }
+        //private void Drop(GameObject target)
+        //{
+        //    Debug.Log("YES auto");
+        //    Drop(target, _currentNPC.gameObject);
+        //}
+
+        //private void Drop(GameObject target, List<GameObject> attachPoints)
+        //{
+        //    Debug.Log("YES list");
+        //    foreach (GameObject attachPoint in attachPoints)
+        //    {
+        //        if (attachPoint.CompareTag("Occupied"))
+        //            continue;
+
+        //        Drop(target, attachPoint);
+        //        attachPoint.tag = "Occupied";
+        //        break;
+        //    }
+        //}
 
         private void Jump()
         {
@@ -681,7 +731,7 @@ namespace Convai.Scripts.Utils
         {
             _actionList.Add(new ConvaiAction(ActionChoice.MoveTo, target, "Walking"));
             _actionList.Add(new ConvaiAction(ActionChoice.PickUp, target, "Picking Up"));
-            _actionList.Add(new ConvaiAction(ActionChoice.MoveTo, counterNum, "Walking"));
+            _actionList.Add(new ConvaiAction(ActionChoice.MoveTo, attachPointsGroup, "Walking"));
             _actionList.Add(new ConvaiAction(ActionChoice.Drop, target, "Picking Up"));
         }
         #endregion
