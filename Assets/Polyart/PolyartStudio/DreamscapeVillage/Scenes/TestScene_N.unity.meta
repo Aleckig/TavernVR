@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c1814f7fb2d5fc74eabf592648c8200e
+guid: 7962e49f66bd0fc4189e5b170605084b
 DefaultImporter:
   externalObjects: {}
   userData: 
@@ -10,6 +10,5 @@ AssetOrigin:
   productId: 244797
   packageName: Dreamscape Village - Stylized Open World Environment
   packageVersion: 1.0
-  assetPath: Assets/Polyart/PolyartStudio/DreamscapeVillage/URP - Click here if using
-    URP/Dreamscape_Village_URP_2021+ Installer.unitypackage
+  assetPath: Assets/Polyart/PolyartStudio/DreamscapeVillage/Scenes/TestScene.unity
   uploadId: 557174
