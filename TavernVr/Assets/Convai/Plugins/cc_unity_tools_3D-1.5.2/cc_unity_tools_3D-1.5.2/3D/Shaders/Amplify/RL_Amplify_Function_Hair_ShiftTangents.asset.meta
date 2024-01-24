@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6dfd3f9332e451e4daa85e7d45af183f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235621
+  packageName: NPC AI - Dialog, actions and general intelligence - by Convai
+  packageVersion: 2.1.0
+  assetPath: Assets/Convai/Plugins/cc_unity_tools_3D-1.5.2/cc_unity_tools_3D-1.5.2/3D/Shaders/Amplify/RL_Amplify_Function_Hair_ShiftTangents.asset
+  uploadId: 638674

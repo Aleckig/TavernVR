@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ac3bfdb7f1f556540bc41acc9a375817
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235621
+  packageName: NPC AI - Dialog, actions and general intelligence - by Convai
+  packageVersion: 2.1.0
+  assetPath: Assets/Convai/Scripts/Utils/ConvaiGRPCAPI.cs
+  uploadId: 638674

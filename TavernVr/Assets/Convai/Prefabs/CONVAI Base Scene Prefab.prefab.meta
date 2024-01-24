@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d48e039e0643fd848beb10345244dda6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235621
+  packageName: NPC AI - Dialog, actions and general intelligence - by Convai
+  packageVersion: 2.1.0
+  assetPath: Assets/Convai/Prefabs/CONVAI Base Scene Prefab.prefab
+  uploadId: 638674

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 72083195ffb075140872294af8b493f8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235621
+  packageName: NPC AI - Dialog, actions and general intelligence - by Convai
+  packageVersion: 2.1.0
+  assetPath: Assets/Convai/Materials/NPC Amy/Std_Tearline_R.mat
+  uploadId: 638674

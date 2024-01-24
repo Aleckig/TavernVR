@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 27cf5446ba8f8324586c005b1ccbb664
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235621
+  packageName: NPC AI - Dialog, actions and general intelligence - by Convai
+  packageVersion: 2.1.0
+  assetPath: Assets/Convai/Plugins/Ready Player Me/Resources/Animations/Walking.anim
+  uploadId: 638674

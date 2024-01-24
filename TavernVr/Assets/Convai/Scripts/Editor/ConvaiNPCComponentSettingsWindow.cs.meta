@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 1f84be99651944b69262e8060b8ac451
+timeCreated: 1696842374
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235621
+  packageName: NPC AI - Dialog, actions and general intelligence - by Convai
+  packageVersion: 2.1.0
+  assetPath: Assets/Convai/Scripts/Editor/ConvaiNPCComponentSettingsWindow.cs
+  uploadId: 638674

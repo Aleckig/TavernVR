@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ccb6fbc08c386624eb24f5cea69a95d9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235621
+  packageName: NPC AI - Dialog, actions and general intelligence - by Convai
+  packageVersion: 2.1.0
+  assetPath: Assets/Convai/Plugins/cc_unity_tools_3D-1.5.2/cc_unity_tools_3D-1.5.2/3D/Material
+    Templates/Amplify/Tessellation/RL_Template_HQ_Hair_2nd_Pass_3D_Amplify_T.mat
+  uploadId: 638674

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7ca334a0948d74a3f8bdb4d28c704e82
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235621
+  packageName: NPC AI - Dialog, actions and general intelligence - by Convai
+  packageVersion: 2.1.0
+  assetPath: Assets/Convai/Plugins/Ready Player Me/Examples/AvatarLod Example/Avatar
+    Configuration LOD1.asset
+  uploadId: 638674

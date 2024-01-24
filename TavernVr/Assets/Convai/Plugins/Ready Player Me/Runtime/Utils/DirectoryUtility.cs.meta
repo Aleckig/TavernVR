@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 580043bf385cffa45a33302643f26513
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235621
+  packageName: NPC AI - Dialog, actions and general intelligence - by Convai
+  packageVersion: 2.1.0
+  assetPath: Assets/Convai/Plugins/Ready Player Me/Runtime/Utils/DirectoryUtility.cs
+  uploadId: 638674

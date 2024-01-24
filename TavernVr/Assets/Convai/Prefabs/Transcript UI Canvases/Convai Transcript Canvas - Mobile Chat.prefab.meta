@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4d88e963b027eff46be75eec0c6ff789
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235621
+  packageName: NPC AI - Dialog, actions and general intelligence - by Convai
+  packageVersion: 2.1.0
+  assetPath: Assets/Convai/Prefabs/Transcript UI Canvases/Convai Transcript Canvas
+    - Mobile Chat.prefab
+  uploadId: 638674

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6db90e2780b28844ca6ca9a70dfd6fa2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235621
+  packageName: NPC AI - Dialog, actions and general intelligence - by Convai
+  packageVersion: 2.1.0
+  assetPath: Assets/Convai/Plugins/GLTFUtility/Scripts/Spec/GLTFCamera.cs
+  uploadId: 638674

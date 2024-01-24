@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e01070acf5be83547a01979058a32084
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235621
+  packageName: NPC AI - Dialog, actions and general intelligence - by Convai
+  packageVersion: 2.1.0
+  assetPath: Assets/Convai/Plugins/GLTFUtility/Materials/Built-in/Standard-Metallic-Blend.shader
+  uploadId: 638674

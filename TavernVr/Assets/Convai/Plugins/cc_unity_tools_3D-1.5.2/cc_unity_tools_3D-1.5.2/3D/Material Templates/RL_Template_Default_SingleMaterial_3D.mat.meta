@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0f4e301138141e241b80abdc85990760
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235621
+  packageName: NPC AI - Dialog, actions and general intelligence - by Convai
+  packageVersion: 2.1.0
+  assetPath: Assets/Convai/Plugins/cc_unity_tools_3D-1.5.2/cc_unity_tools_3D-1.5.2/3D/Material
+    Templates/RL_Template_Default_SingleMaterial_3D.mat
+  uploadId: 638674

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 819f7cc7913ee3c49a45f10ff2f3a987
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235621
+  packageName: NPC AI - Dialog, actions and general intelligence - by Convai
+  packageVersion: 2.1.0
+  assetPath: Assets/Convai/Materials/Interactable Sphere Material.mat
+  uploadId: 638674

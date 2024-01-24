@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b44d2932afb7b7541adcf938a47df192
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235621
+  packageName: NPC AI - Dialog, actions and general intelligence - by Convai
+  packageVersion: 2.1.0
+  assetPath: Assets/Convai/AnimationAvatars/MasculineAnimationAvatar.asset
+  uploadId: 638674

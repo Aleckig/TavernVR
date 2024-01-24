@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f45cf8aafdb5a4efc93acf01995693aa
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235621
+  packageName: NPC AI - Dialog, actions and general intelligence - by Convai
+  packageVersion: 2.1.0
+  assetPath: Assets/Convai/Animations/Crouch.anim
+  uploadId: 638674
