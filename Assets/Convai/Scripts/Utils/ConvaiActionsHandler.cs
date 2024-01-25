@@ -729,6 +729,7 @@ namespace Convai.Scripts.Utils
         // STEP 3: Add the function for your action here.
         private void Order(GameObject target)
         {
+            //HandleTextInput()
             _actionList.Add(new ConvaiAction(ActionChoice.MoveTo, target, "Walking"));
             _actionList.Add(new ConvaiAction(ActionChoice.PickUp, target, "Picking Up"));
             _actionList.Add(new ConvaiAction(ActionChoice.MoveTo, attachPointsGroup, "Walking"));
