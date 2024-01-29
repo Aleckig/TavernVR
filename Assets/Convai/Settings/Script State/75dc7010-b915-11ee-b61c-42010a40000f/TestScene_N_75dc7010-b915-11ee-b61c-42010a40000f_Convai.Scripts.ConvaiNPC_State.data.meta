@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Convai/Settings/Script State/75dc7010-b915-11ee-b61c-42010a40000f/TestScene_N_75dc7010-b915-11ee-b61c-42010a40000f_Convai.Scripts.ConvaiNPC_State.data.meta
 guid: 6455d16fad09b0445a4f59e3df0a409a
+========
+guid: 2ef14eca3d0f31742b3818a4c134992b
+>>>>>>>> Alexander:Assets/Convai/Settings/Script State/75dc7010-b915-11ee-b61c-42010a40000f/Convai Demo - VR Alexander_75dc7010-b915-11ee-b61c-42010a40000f_Convai.Scripts.ConvaiNPC_State.data.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
