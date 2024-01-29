@@ -622,7 +622,7 @@ namespace Convai.Scripts.Utils
 
             // Define the time it takes for the hand to reach the object in the "Picking Up" animation.
             // This is a specific point in time during the animation that we are interested in.
-            float timeToReachObject = 1.1f;
+            float timeToReachObject = 0.7f;
 
             // Check if the time to reach the object is longer than the length of the animation clip.
             if (timeToReachObject > pickupClipLength)
