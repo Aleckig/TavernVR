@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3277403988008106693}
   m_Layer: 0
   m_Name: Props_BeerMug
-  m_TagString: Untagged
+  m_TagString: Drink
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -336,7 +336,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bubblePrefab: {fileID: 5393386940600407190, guid: 814207356cab1c34881497f2ed1f288e,
     type: 3}
-  timeSpan: 1
+  minSpawnInterval: 1
+  maxSpawnInterval: 3
+  bubbleSpeed: 1
+  bubbleLifetime: 2
+  spawnOffsetRange: 0.08
 --- !u!1 &6505292222877950024
 GameObject:
   m_ObjectHideFlags: 0

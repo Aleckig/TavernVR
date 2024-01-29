@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Character
   - Food
+  - Footsteps/Wood
+  - Footsteps/Stone
+  - Drink
   layers:
   - Default
   - TransparentFX
