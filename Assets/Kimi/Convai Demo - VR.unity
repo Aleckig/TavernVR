@@ -1598,6 +1598,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1008873059151538399, guid: d0e1c70999cebfd4fb6e91b4f41286ad,
         type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1008873059151538399, guid: d0e1c70999cebfd4fb6e91b4f41286ad,
+        type: 3}
+      propertyPath: m_MatchOrientation
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1008873059151538399, guid: d0e1c70999cebfd4fb6e91b4f41286ad,
+        type: 3}
       propertyPath: m_TeleportationProvider
       value: 
       objectReference: {fileID: 9179282907969558871}
@@ -1655,6 +1665,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Chair
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356974753857456011, guid: d0e1c70999cebfd4fb6e91b4f41286ad,
+        type: 3}
+      propertyPath: InitialModule.randomizeRotationDirection
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9014799493796220651, guid: d0e1c70999cebfd4fb6e91b4f41286ad,
         type: 3}
