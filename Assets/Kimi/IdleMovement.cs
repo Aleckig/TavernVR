@@ -29,7 +29,7 @@ public class IdleMovement : MonoBehaviour
         {
             if (!isActive)
             {
-                randIndex = Random.Range(0, anchorPoints.Count - 1);
+                randIndex = Random.Range(0, anchorPoints.Count);
                 if (randIndex != lastIndex)
                 {
                     StartCoroutine(MoveTo(anchorPoints[randIndex]));
