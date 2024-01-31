@@ -31,7 +31,6 @@ namespace Convai.Scripts.Utils
             _chatScrollRect = UIInstance.transform.GetChild(0).GetChild(0).GetComponent<ScrollRect>();
             UIInstance.SetActive(false);
         }
-
         /// <summary>
         ///     Sends a message as a character.
         /// </summary>

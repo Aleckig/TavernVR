@@ -5,10 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Character
-  - Food
-  - Footsteps/Wood
-  - Footsteps/Stone
-  - Drink
+  - Occupied
+  - Chair
   layers:
   - Default
   - TransparentFX
