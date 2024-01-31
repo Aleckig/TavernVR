@@ -71,6 +71,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   eatingSound: {fileID: 8300000, guid: 0b828c42ac006fd45bd4e82fc951dcf9, type: 3}
   drinkingSound: {fileID: 8300000, guid: dc70e9db0bd67394881f488e80825157, type: 3}
+  eatingFX: {fileID: 145734, guid: 025de9353a98fa7429f4898924d0c18e, type: 3}
+  drinkingFX: {fileID: 152438, guid: 2e2d53ec941282841893860698c554ef, type: 3}
 --- !u!82 &1566684552463692215
 AudioSource:
   m_ObjectHideFlags: 0

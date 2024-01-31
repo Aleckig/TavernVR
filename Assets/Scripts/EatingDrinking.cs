@@ -8,6 +8,10 @@ public class EatingDrinking : MonoBehaviour
     public AudioClip eatingSound;
     public AudioClip drinkingSound;
 
+    // Define the eating and drinking visual effects
+    public GameObject eatingFX;
+    public GameObject drinkingFX;
+
     private void OnTriggerEnter(Collider other)
     {
         // Check if the collided object is a food object
@@ -15,6 +19,8 @@ public class EatingDrinking : MonoBehaviour
         {
             // Play the eating sound
             PlaySound(eatingSound);
+            // Play the eating visual effect
+            PlayFX(eatingFX);
             // Destroy the food object
             Destroy(other.gameObject);
         }
@@ -23,6 +29,8 @@ public class EatingDrinking : MonoBehaviour
         {
             // Play the drinking sound
             PlaySound(drinkingSound);
+            // Play the drinking visual effect
+            PlayFX(drinkingFX);
             // Destroy the drink object
             Destroy(other.gameObject);
         }
@@ -34,6 +42,17 @@ public class EatingDrinking : MonoBehaviour
         if (sound != null)
         {
             AudioSource.PlayClipAtPoint(sound, transform.position);
+        }
+    }
+
+    private void PlayFX(GameObject fx)
+    {
+        // Play the specified visual effect
+        if (fx != null)
+        {
+            Instantiate(fx, transform.position, Quaternion.identity);
+            // Destroy the visual effect after a certain time (e.g., 2 seconds)
+            Destroy(fx, 2f);
         }
     }
 }
