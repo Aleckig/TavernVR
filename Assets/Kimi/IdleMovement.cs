@@ -77,7 +77,7 @@ public class IdleMovement : MonoBehaviour
         float moveSpeed = 0.6f;
 
         // The stopping distance to the target, to avoid overshooting or getting too close.
-        float stoppingDistance = 0.1f;
+        float stoppingDistance = 0.6f;
 
         // Loop until the character is within the stopping distance to the target.
         while (Vector3.Distance(transform.position, target.transform.position) > stoppingDistance)
