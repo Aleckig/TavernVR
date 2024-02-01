@@ -12,6 +12,7 @@ public class MechDummyKick : MonoBehaviour
     [SerializeField] private float chanceForBronze = .65f;
     [SerializeField] private float delayInGeneration = 1f;
     [SerializeField] private string collisionTag = "Weapon";
+    [SerializeField] private GameObject spawnPoint;
     // [SerializeField] private float rotationAnimAngle = 30f;
 
     bool inProgress = false;
@@ -47,7 +48,7 @@ public class MechDummyKick : MonoBehaviour
         }
 
 
-        Instantiate(selectedPrefab, transform);
+        Instantiate(selectedPrefab, spawnPoint.transform);
         yield return new WaitForSeconds(delayInGeneration);
         inProgress = false;
         yield break;

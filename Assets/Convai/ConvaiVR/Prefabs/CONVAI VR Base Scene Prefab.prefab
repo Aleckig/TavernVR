@@ -2062,9 +2062,6 @@ MonoBehaviour:
   - characterGameObject: {fileID: 0}
     characterName: Test Character
     characterTextColor: {r: 1, g: 0, b: 0, a: 1}
-  - characterGameObject: {fileID: 0}
-    characterName: TEST CHAR
-    characterTextColor: {r: 1, g: 0, b: 0, a: 1}
   playerName: Player
   playerTextColor: {r: 0.16216493, g: 1, b: 0, a: 1}
 --- !u!114 &4244619434511585000

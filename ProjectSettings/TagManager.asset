@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Character
   - Weapon
+  - Footsteps/Wood
+  - Footsteps/Stone
+  - Bronze
+  - Silver
+  - Gold
   layers:
   - Default
   - TransparentFX

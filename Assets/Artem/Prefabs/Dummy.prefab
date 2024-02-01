@@ -108,6 +108,37 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300004, guid: abc00000000018308668564060573135, type: 3}
+--- !u!1 &2015942591615705257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7437828089644422004}
+  m_Layer: 0
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7437828089644422004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015942591615705257}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.519, y: 0.691, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 640363508945411750}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4595196636003556611
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,6 +345,7 @@ Transform:
   - {fileID: 5516143743895790824}
   - {fileID: 4705314254313873752}
   - {fileID: 4961144118516602741}
+  - {fileID: 7437828089644422004}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!205 &3250066420346872287
@@ -367,7 +399,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -386,7 +418,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -404,10 +436,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb6ba11e49569f54d93cbb4d245f96c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coinPrefabGold: {fileID: 316434870209233495, guid: 3688192106deff6408b105cf393c508a,
+  coinPrefabGold: {fileID: 1009473198088075696, guid: 3688192106deff6408b105cf393c508a,
     type: 3}
   chanceForGold: 0.1
-  coinPrefabSilver: {fileID: 316434870209233495, guid: 28a70a4ebca5c7642a8bb5e50c847906,
+  coinPrefabSilver: {fileID: 8851735584909107990, guid: c6e33132234374a43a9aa45445544098,
     type: 3}
   chanceForSilver: 0.25
   coinPrefabBronze: {fileID: 316434870209233495, guid: 1ad0904de3be9d04aa220cd567cf53bc,
@@ -415,3 +447,4 @@ MonoBehaviour:
   chanceForBronze: 0.65
   delayInGeneration: 1
   collisionTag: Weapon
+  spawnPoint: {fileID: 2015942591615705257}
