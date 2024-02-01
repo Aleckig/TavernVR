@@ -161,7 +161,7 @@ PlayerSettings:
   androidMinAspectRatio: 1
   applicationIdentifier:
     Android: com.Convai.ConvaiCharacter
-    Standalone: com.Convai.ConvaiCharacter
+    Standalone: com.DefaultCompany.Convai-Group-Project
   buildNumber:
     Bratwurst: 0
     Standalone: 0
