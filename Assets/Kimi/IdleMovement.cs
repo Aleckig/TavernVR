@@ -39,7 +39,7 @@ public class IdleMovement : MonoBehaviour
                 {
                     StartCoroutine(MoveTo(anchorPoints[randIndex]));
                 }
-            lastIndex = randIndex;
+                lastIndex = randIndex;
             }
             yield return new WaitForSeconds(1f);
         }
@@ -49,6 +49,7 @@ public class IdleMovement : MonoBehaviour
     public IEnumerator StopMovement()
     {
         movementStarted = false;
+        Debug.Log("Movement Stopped");
         while (true)
         {
             if (!isActive)
@@ -101,19 +102,19 @@ public class IdleMovement : MonoBehaviour
             direction.y = 0;
 
             // Rotate the character to face the target using a slerp for smoother rotation.
-                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction),
-                    Time.deltaTime * 5f);
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction),
+                Time.deltaTime * 5f);
 
-                // Move the character towards the target position.
-                transform.position = Vector3.MoveTowards(transform.position, target.transform.position,
-                    moveSpeed * Time.deltaTime);
-            
+            // Move the character towards the target position.
+            transform.position = Vector3.MoveTowards(transform.position, target.transform.position,
+                moveSpeed * Time.deltaTime);
+
             // Yield until the next frame.
             yield return null;
         }
 
         // Transition to the "Idle" animation once we've reached the target.
-        
+
         //transform.LookAt(counterTarget.position);
         animator.CrossFade(Animator.StringToHash("Idle"), 0.1f);
         //transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(counterTarget.position), Time.deltaTime * 5f);
@@ -122,13 +123,14 @@ public class IdleMovement : MonoBehaviour
 
     public IEnumerator TurnToPlayer()
     {
-        while (call.onTrigger == true)
-        {
-            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(counterTarget.position), timeCount);
-            timeCount = timeCount + Time.deltaTime;
-            yield return null;
-        }
-        yield break;
+        transform.LookAt(counterTarget.transform);
+    //while (call.onTrigger == true)
+    //{
+    //transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(counterTarget.position), timeCount);
+    //    timeCount = timeCount + Time.deltaTime;
+    //    yield return null;
+    //}
+    yield break;
     }
 
     //private ienumerator movetocounter(gameobject target)
@@ -188,4 +190,4 @@ public class IdleMovement : MonoBehaviour
     //}
 
 
-    }
+}

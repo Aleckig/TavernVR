@@ -559,7 +559,7 @@ namespace Convai.Scripts.Utils
 
                 // Rotate the character to face the target using a slerp for smoother rotation.
                 transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction),
-                    Time.deltaTime * 5f);
+                    Time.deltaTime * .5f);
 
                 // Move the character towards the target position.
                 transform.position = Vector3.MoveTowards(transform.position, target.transform.position,
